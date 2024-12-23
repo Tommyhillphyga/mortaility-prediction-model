@@ -9,6 +9,8 @@ MIMIC III is a large, freely available database comprising  de identified health
 
 Different machine learning model was trained, evaluated and deployed on  Streamlit web application framework for mortality prediction
 
+![Logo](roccurve.png)
+
 # To run
 
 ``` 
