@@ -1,4 +1,4 @@
-# mortaility-prediction-model
+# Mortality Prediction Model Training on MIMIC Dataset
 
 The prediction of in-hospital mortality for intensive care units (ICU) admitted HF patients remains poorly characterized. I aimed to develop a solutions using a predictive model for mortality prediction, considering in-hospital mortality in intensive care unit patients with heart failures. 
 
