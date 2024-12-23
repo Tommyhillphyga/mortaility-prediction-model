@@ -44,8 +44,7 @@ if 'username' not in st.session_state:
     st.session_state.username = ''
 
 def login_page ():
-    image = Image.open('white logo new.webp')
-    st.image(image)
+    
     st.title('Login to the Mortality Prediction System')
     username = st.text_input('Username')
     password = st.text_input('Password', type= 'password')
@@ -63,10 +62,9 @@ def login_page ():
             st.error('Incorrect username or password')
 
 def prediction_page():             
-    image = Image.open('white logo new.webp')
+    
     features = feature_list
     feat_map = feature_map
-    st.image(image)
     st.title("Mortality Prediction System")
     st.write("This system predicts the mortality of patients based on their medical history.")
     st.write("Please enter the patient's information below:")
